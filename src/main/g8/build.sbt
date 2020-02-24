@@ -48,6 +48,11 @@ ThisBuild / scalacOptions := Seq(
   "-Ywarn-value-discard"            // Warn when non-Unit expression results are unused.
 )
 
+lazy val supportedScalaVersions = List("2.12.4", "2.13.0")
+ThisBuild / crossScalaVersions := supportedScalaVersions
+
+publishMavenStyle := true
+
 lazy val app = (project in file("app"))
   .settings(
     name := "app",
