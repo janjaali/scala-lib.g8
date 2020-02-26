@@ -53,9 +53,9 @@ ThisBuild / crossScalaVersions := supportedScalaVersions
 
 publishMavenStyle := true
 
-credentials += Credentials(Path.userHome / ".sbt" / ".azure-artifacts-credentials")
+credentials += publishSettings.credentials
 
-publishTo := Some("azure-artifacts" at "https://ghashange.pkgs.visualstudio.com/_packaging/artifacts-feed/maven/v1")
+publishTo := publishSettings.publishTo
 
 lazy val app = (project in file("app"))
   .settings(
