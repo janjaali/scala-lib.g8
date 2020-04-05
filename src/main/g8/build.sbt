@@ -57,9 +57,9 @@ credentials += publishSettings.credentials
 
 publishTo := publishSettings.publishTo
 
-lazy val app = (project in file("app"))
+lazy val lib = (project in file("lib"))
   .settings(
-    name := "app",
+    name := "lib",
 
     libraryDependencies ++= Seq(
       // tests
