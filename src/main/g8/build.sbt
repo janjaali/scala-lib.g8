@@ -43,8 +43,7 @@ ThisBuild / scalacOptions := Seq(
   "-Wunused:patvars",               // Warn if a variable bound in a pattern is unused.
   "-Wunused:privates",              // Warn if a private member is unused.
   "-Wunused:locals",                // Warn if a local definition is unused.
-  "-Wunused:params",                // Enable -Wunused:explicits,implicits.
-  "-Ywarn-value-discard"            // Warn when non-Unit expression results are unused.
+  "-Wunused:params"                 // Enable -Wunused:explicits,implicits.
 )
 
 lazy val supportedScalaVersions = List("2.12.4", "2.13.0")
