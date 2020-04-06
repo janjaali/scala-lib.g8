@@ -39,7 +39,6 @@ ThisBuild / scalacOptions := Seq(
   "-Ywarn-extra-implicit",          // Warn when more than one implicit parameter section is defined.
   "-Ywarn-numeric-widen",           // Warn when numerics are widened.
   "-Ywarn-octal-literal",           // Warn on obsolete octal syntax.
-  "-Ywarn-self-implicit",           // Warn when an implicit resolves to an enclosing self-definition.
   "-Wunused:imports",               // Warn if an import selector is not referenced.
   "-Wunused:patvars",               // Warn if a variable bound in a pattern is unused.
   "-Wunused:privates",              // Warn if a private member is unused.
