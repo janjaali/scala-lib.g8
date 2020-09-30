@@ -2,7 +2,7 @@ ThisBuild / name := "$project_name;format="lower,hyphen"$"
 
 ThisBuild / organization := "$organization$"
 
-ThisBuild / version := "1.0.0-SNAPSHOT"
+ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
