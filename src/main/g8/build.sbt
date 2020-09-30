@@ -6,7 +6,7 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
-ThisBuild / scalaVersion := "2.13.1"
+ThisBuild / scalaVersion := "2.13.3"
 
 ThisBuild / scalacOptions := Seq(
   "-deprecation",                   // Emit warning and location for usages of deprecated APIs.
