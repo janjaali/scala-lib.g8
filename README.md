@@ -4,6 +4,8 @@
 
 ## "Features"
 
+* Predefined compiler-options based on [scala-compiler-options](https://github.com/janjaali/scala-compiler-options)
+
 * [Metals](https://github.com/scalameta/metals) support
 
 ## Usage
