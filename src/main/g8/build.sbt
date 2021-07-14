@@ -1,5 +1,3 @@
-ThisBuild / name := "$project_name;format="lower,hyphen"$"
-
 ThisBuild / organization := "$organization$"
 
 ThisBuild / version := "0.1.0-SNAPSHOT"
@@ -19,7 +17,7 @@ publishTo := publishSettings.publishTo
 
 lazy val lib = (project in file("lib"))
   .settings(
-    name := "lib",
+    name := "$project_name;format="lower,hyphen"$",
 
     libraryDependencies ++= Seq(
       // tests
