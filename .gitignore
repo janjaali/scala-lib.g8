@@ -1,2 +1,5 @@
 # editors
 .vscode
+
+# metals
+.metals
