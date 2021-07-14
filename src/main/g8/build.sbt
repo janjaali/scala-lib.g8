@@ -4,9 +4,9 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
-ThisBuild / scalaVersion := "2.13.3"
+ThisBuild / scalaVersion := "3.0.1"
 
-lazy val supportedScalaVersions = List("2.12.4", "2.13.0")
+lazy val supportedScalaVersions = List("2.13.6", "3.0.1")
 ThisBuild / crossScalaVersions := supportedScalaVersions
 
 publishMavenStyle := true
