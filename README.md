@@ -1,6 +1,10 @@
 # scala-lib.g8
 
-[Giter8] skeleton for scala libraries.
+[Giter8] skeleton for scala libraries with an opinionated structure.
+
+## "Features"
+
+* [Metals](https://github.com/scalameta/metals) support
 
 ## Usage
 
