@@ -9,10 +9,15 @@ ThisBuild / scalaVersion := "3.0.1"
 lazy val supportedScalaVersions = List("2.13.6", "3.0.1")
 ThisBuild / crossScalaVersions := supportedScalaVersions
 
+ThisBuild / semanticdbEnabled := true
+ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
+
+ThisBuild / scalafixDependencies += {
+  "com.github.liancheng" %% "organize-imports" % "0.5.0"
+}
+
 publishMavenStyle := true
-
 credentials += publishSettings.credentials
-
 publishTo := publishSettings.publishTo
 
 lazy val lib = (project in file("lib"))

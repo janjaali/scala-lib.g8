@@ -10,6 +10,8 @@
 
 * [Metals](https://github.com/scalameta/metals) support
 
+* [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) support to organize imports
+
 ## Usage
 
 Giter the template
