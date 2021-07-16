@@ -1,6 +1,14 @@
-# build
+# SBT
 target
 
-# IDE's
-.vscode
+# IntelliJ
 .idea
+
+# VSCode
+.vscode
+
+# Metals
+.bloop
+.metals
+metals.sbt
+project/project

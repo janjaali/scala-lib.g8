@@ -1,6 +1,18 @@
 # scala-lib.g8
 
-[Giter8] skeleton for scala libraries.
+[Giter8] skeleton for scala libraries with an opinionated structure.
+
+## "Features"
+
+* Predefined compiler-options based on [scala-compiler-options](https://github.com/janjaali/scala-compiler-options)
+
+* [MUnit](https://github.com/scalameta/munit) used as test framework
+
+* [Metals](https://github.com/scalameta/metals) support
+
+* [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) support to organize imports
+
+* [scalameta/scalafmt](https://github.com/scalameta/scalafmt) for formatting
 
 ## Usage
 
