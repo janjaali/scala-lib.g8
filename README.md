@@ -6,6 +6,8 @@
 
 * Predefined compiler-options based on [scala-compiler-options](https://github.com/janjaali/scala-compiler-options)
 
+* [MUnit](https://github.com/scalameta/munit) used as test framework
+
 * [Metals](https://github.com/scalameta/metals) support
 
 ## Usage

@@ -10,6 +10,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 * Added [Metals](https://github.com/scalameta/metals) support
 
+* Added [MUnit](https://github.com/scalameta/metals)
+
+### ❌ Removed
+
+* Removed [ScalaTest](https://github.com/scalatest/scalatest)
+
 ## [1.1.0]
 
 ### ✨ Feature
