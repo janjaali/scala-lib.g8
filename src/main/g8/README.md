@@ -19,3 +19,11 @@ Organize imports by using [Scalafix](https://github.com/scalacenter/scalafix) an
 ```shell
 sbt scalaFixAll
 ```
+
+### Format
+
+Format source code by using [scalameta/scalafmt](https://github.com/scalameta/scalafmt):
+
+```shell
+sbt scalafmtAll
+```

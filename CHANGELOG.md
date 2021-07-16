@@ -14,6 +14,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 * Added [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) support
 
+* Added [scalameta/scalafmt](https://github.com/scalameta/scalafmt) support
+
 ### ❌ Removed
 
 * Removed [ScalaTest](https://github.com/scalatest/scalatest)

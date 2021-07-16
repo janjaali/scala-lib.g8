@@ -12,6 +12,8 @@
 
 * [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) support to organize imports
 
+* [scalameta/scalafmt](https://github.com/scalameta/scalafmt) for formatting
+
 ## Usage
 
 Giter the template
