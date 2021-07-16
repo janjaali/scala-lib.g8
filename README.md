@@ -32,4 +32,12 @@ cd testDir
 g8 file://../scala-lib.g8/
 ```
 
+## Release
+
+1. Update [CHANGELOG](./CHANGELOG.md)
+
+2. Merge changes back into main branch
+
+3. Tag version `git tag -a v1.2.0 -m "Release version 1.2.0."`
+
 [Giter8]: http://www.foundweekends.org/giter8/
