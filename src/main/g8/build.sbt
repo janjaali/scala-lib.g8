@@ -1,6 +1,7 @@
 ThisBuild / organization := "$organization$"
 
 ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / versionScheme := Some("semver-spec")
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
