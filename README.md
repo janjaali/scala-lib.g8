@@ -38,6 +38,6 @@ g8 file://../scala-lib.g8/
 
 2. Merge changes back into main branch
 
-3. Tag version `git tag -a v1.2.1 -m "Release version 1.2.1."`
+3. Tag version `git tag -a v1.3.0 -m "Release version 1.3.0."`
 
 [Giter8]: http://www.foundweekends.org/giter8/
