@@ -34,10 +34,16 @@ g8 file://../scala-lib.g8/
 
 ## Release
 
-1. Update [CHANGELOG](./CHANGELOG.md)
+1. Update [CHANGELOG](./CHANGELOG.md) on your branch
 
-2. Merge changes back into main branch
+2. Update this [README](./README.md) on your branch
 
-3. Tag version `git tag -a v1.3.0 -m "Release version 1.3.0."`
+3. Merge changes back into the main branch
+
+4. Tag version `git tag -a v1.4.0 -m "Release version 1.4.0."`
+
+5. Publish the new release `git push --tags`
+
+6. Create a new release on GitHub
 
 [Giter8]: http://www.foundweekends.org/giter8/
