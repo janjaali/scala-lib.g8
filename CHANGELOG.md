@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 * Update [MUnit](https://github.com/scalameta/munit) version from `0.7.27` to `0.7.28`
 * Update [Scalafix](https://github.com/scalacenter/sbt-scalafix) version from `0.9.29` to `0.9.30`
 
+### 📚 Documentation
+
+* Update README to use SBT integration for usage [#5](https://github.com/janjaali/scala-lib.g8/issues/5)
+
 ## [1.4.0]
 
 ### ✨ Feature
