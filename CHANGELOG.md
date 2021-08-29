@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### 🧰 Maintenance
 
 * Update [MUnit](https://github.com/scalameta/munit) version from `0.7.27` to `0.7.28`
+* Update [Scalafix](https://github.com/scalacenter/sbt-scalafix) version from `0.9.29` to `0.9.30`
 
 ## [1.4.0]
 
