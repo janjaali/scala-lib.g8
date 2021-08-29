@@ -16,10 +16,10 @@
 
 ## Usage
 
-Giter the template
+Apply the template with SBT:
 
 ```shell
-g8 janjaali/scala-lib.g8
+sbt new janjaali/scala-lib.g8
 ```
 
 ## Test template locally
@@ -29,7 +29,7 @@ To test the template locally create a new directory and run:
 ```shell
 mkdir testDir
 cd testDir
-g8 file://../scala-lib.g8/
+sbt new file://../scala-lib.g8/
 ```
 
 ## Release
