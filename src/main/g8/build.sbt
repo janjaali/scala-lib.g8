@@ -5,7 +5,7 @@ ThisBuild / versionScheme := Some("semver-spec")
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
-ThisBuild / scalaVersion := "3.0.1"
+ThisBuild / scalaVersion := "3.0.2"
 
 lazy val supportedScalaVersions = List("2.13.6", "3.0.1")
 ThisBuild / crossScalaVersions := supportedScalaVersions
@@ -27,6 +27,6 @@ lazy val lib = (project in file("lib"))
 
     libraryDependencies ++= Seq(
       // tests
-      "org.scalameta" %% "munit" % "0.7.28" % Test
+      "org.scalameta" %% "munit" % "0.7.29" % Test
     )
   )
