@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### 🧰 Maintenance
 
+* Update [Scala](https://scala-lang.org/) version to `3.0.2` (was `3.0.1`)
 * Update [MUnit](https://github.com/scalameta/munit) version to `0.7.29` (was `0.7.28`)
 * Update [scalafmt](https://github.com/scalameta/scalafmt) version to `3.0.2` (was `3.0.1`)
 
