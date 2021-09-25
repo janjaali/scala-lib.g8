@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### 🧰 Maintenance
 
 * Update [scalafmt](https://github.com/scalameta/scalafmt) to `3.0.4` (was `3.0.2`)
+* Update [Scalafix](https://github.com/scalacenter/sbt-scalafix) to `0.9.31` (was `0.9.30`)
 
 ## [1.5.1]
 
