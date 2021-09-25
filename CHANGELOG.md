@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### 🧰 Maintenance
 
-* Update [scalafmt](https://github.com/scalameta/scalafmt) version from `3.0.4` to `3.0.2`
+* Update [scalafmt](https://github.com/scalameta/scalafmt) to `3.0.4` (was `3.0.2`)
 
 ## [1.5.1]
 
