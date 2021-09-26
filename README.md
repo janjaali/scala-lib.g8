@@ -24,7 +24,7 @@ sbt new janjaali/scala-lib.g8
 
 ## Test template locally
 
-To test the template locally create a new directory and run:
+To test the template locally create a new directory (not in this project folder) and run:
 
 ```shell
 mkdir testDir
