@@ -24,7 +24,7 @@ sbt new janjaali/scala-lib.g8
 
 ## Test template locally
 
-To test the template locally create a new directory and run:
+To test the template locally create a new directory (not in this project folder) and run:
 
 ```shell
 mkdir testDir
@@ -40,7 +40,7 @@ sbt new file://../scala-lib.g8/
 
 3. Merge changes back into the main branch
 
-4. Tag version `git tag -a v1.5.1 -m "Release version 1.5.1."`
+4. Tag version ```git tag -a v1.5.2 -m "Release version `v1.5.2`."```
 
 5. Publish the new release `git push --tags`
 
