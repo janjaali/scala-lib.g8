@@ -1,6 +1,6 @@
-package $organization$
+package org
 
-object $project_name;format="space,Camel"$:
+object Main:
 
   def main(args: Array[String]): Unit =
     println("Happy hacking!")

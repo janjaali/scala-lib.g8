@@ -3,3 +3,8 @@
 
 # metals
 .metals
+.bsp
+
+# SBT
+target
+project/project
