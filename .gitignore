@@ -3,3 +3,10 @@
 
 # metals
 .metals
+.bsp
+.bloop
+metals.sbt
+project/project
+
+# SBT
+target
