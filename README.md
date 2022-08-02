@@ -22,7 +22,17 @@ Apply the template with SBT:
 sbt new janjaali/scala-lib.g8
 ```
 
-## Test template locally
+## Test
+
+### Scripted test
+
+To run scripted test (provided by [Giter8Plugin](https://www.foundweekends.org/giter8/testing.html#Using+the+Giter8Plugin)) execute:
+
+```shell
+sbt g8Test
+```
+
+### Test template locally
 
 To test the template locally create a new directory (not in this project folder) and run:
 
