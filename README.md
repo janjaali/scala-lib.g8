@@ -2,17 +2,21 @@
 
 [Giter8] skeleton for scala libraries with an opinionated structure.
 
-## "Features"
+## Features
 
-* Predefined compiler-options based on [scala-compiler-options](https://github.com/janjaali/scala-compiler-options)
+* [GitHub Actions](https://docs.github.com/en/actions) for automated builds and tests.
+
+* [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) for imports organization
 
 * [MUnit](https://github.com/scalameta/munit) used as test framework
 
-* [Metals](https://github.com/scalameta/metals) support
+* [Metals](https://github.com/scalameta/metals) support for VSCode as Scala IDE
 
-* [liancheng/scalafix-organize-imports](https://github.com/liancheng/scalafix-organize-imports) support to organize imports
+* [scala-compiler-options](https://github.com/janjaali/scala-compiler-options) to setup compiler options
 
 * [scalameta/scalafmt](https://github.com/scalameta/scalafmt) for formatting
+
+* [Scala Steward GitHub Actions](https://github.com/scala-steward-org/scala-steward-action) to keep your project up to date
 
 ## Usage
 
