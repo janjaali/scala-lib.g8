@@ -1,6 +1,6 @@
 # scala-lib.g8
 
-[Giter8] skeleton for scala libraries with an opinionated structure.
+[Giter8](http://www.foundweekends.org/giter8/) skeleton for scala libraries with an opinionated structure.
 
 ## Features
 
@@ -45,19 +45,3 @@ mkdir testDir
 cd testDir
 sbt new file://../scala-lib.g8/
 ```
-
-## Release
-
-1. Update [CHANGELOG](./CHANGELOG.md) on your branch
-
-2. Update this [README](./README.md) on your branch
-
-3. Merge changes back into the main branch
-
-4. Tag version ```git tag -a v1.5.2 -m "Release version `v1.5.2`."```
-
-5. Publish the new release `git push --tags`
-
-6. Create a new release on GitHub
-
-[Giter8]: http://www.foundweekends.org/giter8/
