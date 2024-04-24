@@ -9,9 +9,13 @@ jobs:
   update-dependency-graph:
     name: Update Dependency Graph
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      security-events: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Submit Dependency Graph
         uses: scalacenter/sbt-dependency-submission@v2
