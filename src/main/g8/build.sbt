@@ -27,6 +27,6 @@ lazy val lib = (project in file("lib"))
 
     libraryDependencies ++= Seq(
       // tests
-      "org.scalameta" %% "munit" % "0.7.29" % Test
+      "org.scalameta" %% "munit" % "1.0.0" % Test
     )
   )
