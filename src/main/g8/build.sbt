@@ -5,9 +5,9 @@ ThisBuild / versionScheme := Some("semver-spec")
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
-ThisBuild / scalaVersion := "3.0.2"
+ThisBuild / scalaVersion := "3.3.3"
 
-lazy val supportedScalaVersions = List("2.13.6", "3.0.1")
+lazy val supportedScalaVersions = List("2.13.6", "3.3.3")
 ThisBuild / crossScalaVersions := supportedScalaVersions
 
 ThisBuild / semanticdbEnabled := true
