@@ -7,7 +7,7 @@ ThisBuild / licenses := Seq(
   "MIT License" -> url("https://opensource.org/licenses/MIT")
 )
 
-ThisBuild / scalaVersion := "2.12.19"
+ThisBuild / scalaVersion := "2.12.20"
 
 ThisBuild / scalafixDependencies += {
   "com.github.liancheng" %% "organize-imports" % "0.6.0"
