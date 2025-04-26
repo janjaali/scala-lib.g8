@@ -1,1 +1,1 @@
-addSbtPlugin("com.github.janjaali" % "scala-compiler-options" % "1.6.0")
+addSbtPlugin("com.github.janjaali" % "scala-compiler-options" % "1.7.0")
