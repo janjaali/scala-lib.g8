@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+    
+      - name: Set up SBT
+        uses: sbt/setup-sbt@v1
 
       - name: Submit Dependency Graph
         uses: scalacenter/sbt-dependency-submission@v3
