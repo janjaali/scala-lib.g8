@@ -7,7 +7,7 @@ ThisBuild / licenses := Seq(
   "MIT License" -> url("https://opensource.org/licenses/MIT")
 )
 
-ThisBuild / scalaVersion := "2.12.19"
+ThisBuild / scalaVersion := "2.12.20"
 
 ThisBuild / scalafixDependencies += {
   "com.github.liancheng" %% "organize-imports" % "0.6.0"
@@ -18,6 +18,6 @@ lazy val lib = (project in file("."))
     name := "scala-lib",
     libraryDependencies ++= Seq(
       // tests
-      "org.scalameta" %% "munit" % "1.0.0" % Test
+      "org.scalameta" %% "munit" % "1.0.4" % Test
     )
   )
