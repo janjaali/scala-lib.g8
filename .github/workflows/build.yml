@@ -17,6 +17,9 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
+    
+      - name: Set up SBT
+        uses: sbt/setup-sbt@v1
 
       - name: Compile and Test
         run: sbt g8Test
