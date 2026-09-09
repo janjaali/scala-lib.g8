@@ -18,6 +18,6 @@ lazy val lib = (project in file("."))
     name := "scala-lib",
     libraryDependencies ++= Seq(
       // tests
-      "org.scalameta" %% "munit" % "1.3.5" % Test
+      "org.scalameta" %% "munit" % "1.3.6" % Test
     )
   )
